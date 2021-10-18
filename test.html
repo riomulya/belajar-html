@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,4 +15,45 @@
     <p>Belajar <ins>membuat</ins> Atribut Paragraph</p>
     <a href="https://github.com/riomulya" target="_blank">ini adalah  akun github saya</a>
 </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo HTML datalist tag</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <h2>Contoh 1 </h2>
+    <label>
+      Jasa Pengiriman / Kurir:
+      <input list="kurir" />
+      <datalist id="kurir">
+        <option value="POS Indonesia"></option>
+        <option value="JNE"></option>
+        <option value="TIKI"></option>
+      </datalist>
+    </label>
+
+    <hr />
+
+    <h2>Contoh 2 </h2>
+    <label>
+      Jasa Pengiriman / Kurir:
+      <input name="ekspedisi2" list="kurir2" />
+    </label>
+    <datalist id="kurir2">
+      <label>
+        Atau Pilih dari daftar:
+        <select name="ekspedisi2">
+          <option value=""></option>
+          <option>POS Indonesia</option>
+          <option>JNE</option>
+          <option>TIKI</option>
+        </select>
+      </label>
+    </datalist>
+  </body>
 </html>
