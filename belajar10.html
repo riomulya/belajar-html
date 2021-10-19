@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input element</title>
+</head>
+<body>
+    <form action="">
+        masukkan kota asal anda : <input type="text" placeholder="Kota Depok" readonly > <input type="submit">
+        <br> <br>
+        masukkan kota alamat : <input type="text" placeholder="jalan-jalan" disabled > <input type="submit">
+        <br><br>
+        ketik angka : <input type="text" placeholder="masukan angka" maxlength="2" required oninvalid="this.setCustomValidity('mohon di isi')"> <input type="submit">
+        <br> <br>
+        ketik angka : <input type="text" placeholder="masukan huruf" maxlength="10" autofocus required required oninvalid="this.setCustomValidity('wajib di isi')"> <input type="submit">
+        </form>
+</body>
+</html>
