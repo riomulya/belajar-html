@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>
+        Pesanan :
+        <select multiple>
+            <optgroup label="makanan">
+                <option>nasi padang</option>
+                <option>nasi lemak</option>
+                <option>nasi uduk</option>
+            </optgroup>
+            <optgroup label="minuman">
+                <option>es teh</option>
+                <option>es jeruk</option>
+                <option>es campur</option>
+            </optgroup>
+        </select>
+    </p> -->
+    <datalist id="listmakanan">
+        <option value="ayam bakar">ayam bakar</option>
+        <option value="ayam panggang">ayam panggang</option>
+        <option value="sate padang">sate padang</option>
+        <option value="sate madura">sate madura</option>
+        <option value="seblak">seblak</option>
+    </datalist>
+    <form>
+        <input type="text" list="listmakanan">
+    </form>
+</body>
+</html>
